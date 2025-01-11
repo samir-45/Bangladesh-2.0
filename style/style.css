@@ -401,3 +401,90 @@ transition: all ease 0.4s;
     justify-content: center;
 }
 
+/* Working on page - 6 */
+
+#page-6{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 95px;
+    font-family: "Fira Sans", serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.recent-card{
+    background-color: rgb(111, 111, 111);
+    width: 100%;
+    border-radius: 18px;
+}
+
+.recent-card{
+    display: flex;
+    align-items: center;
+    padding: 40px 40px;
+    gap: 20px;
+}
+
+.recent-date-time{
+    display: flex;
+    gap: 10px;
+}
+.recent-info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.recent-img{
+    width: 330px;
+    border-radius: 18px;
+}
+
+.recent-description{
+    font-size: 14px;
+    color: #0e0e0eba;
+}
+
+.recent-date-time{
+    font-size: 14px;
+    color: #0e0e0eba;
+}
+
+.recent-title{
+    font-size: 27px;
+    color: #0e0e0eca;
+}
+
+.recent-channel img{
+    width: 120px;
+}
+
+.recent-btn button{
+    padding: 10px 16px;
+    border: 1px solid #006A50;
+    color: white;
+    background-color: #006A50;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+
+
+.recent-btn button:hover{
+    background-color: transparent;
+    color: #006A50;
+}
+
+.recents-title{
+    margin-top: 50px;
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.recents-description{
+    font-size: 14px;
+    color: #0e0e0eba;
+}
