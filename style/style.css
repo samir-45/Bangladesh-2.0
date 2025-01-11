@@ -164,7 +164,7 @@ padding: 50px 95px;
 
 
 .visions{
-    padding: 10px 95px 50px 95px;
+    padding: 10px 95px 20px 95px;
     display: flex;
     flex-direction: column;
     gap: 18px;
@@ -255,4 +255,44 @@ bottom: 21px;
 }
 .vision-card:nth-child(3){
     background-color: #F7EBCF;
+}
+
+
+/* Working on page - 4 */
+
+#page-4{
+    width: 100%;
+    min-height: 33vh;
+    font-family: "Fira Sans", serif;
+}
+
+.yunus-speech-box{
+    position: relative;
+    width: 85%;
+    background-color: white;
+    margin: 10px auto;
+    padding: 35px 18px;
+    border-radius: 12px;
+    border: 1px solid #0e0e0e35;
+}
+
+.comma{
+    position: absolute;
+    top: 10px;
+}
+
+.yunus-speech{
+    font-size: 14px;
+    color: #0e0e0eba;
+    margin-bottom: 10px;
+}
+
+.yunus-name{
+    font-size: 19px;
+    margin-bottom: 4px;
+}
+
+.yunus-title{
+    font-size: 15px;
+    color: #0e0e0eba;
 }
