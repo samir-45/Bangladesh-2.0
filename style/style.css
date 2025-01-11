@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* font-family: "Fira Sans", serif; */
+
+/* Working on Nav */
+ 
+nav{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Fira Sans", serif;
+    padding: 0 95px;
+}
+
+.nav-btn{
+    border: 1.3px solid #006A50;
+    color: #006A50;
+    background-color: transparent;
+    padding: 12px 21px;
+    border-radius: 8px;
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+
+.nav-btn:hover{
+    border: 1.3px solid white;
+    background-color: #C6E4D6;
+}
+
+nav h2{
+    font-size: 26px;
+}
+
+/* Working on page-1 */
+
+#page-1{
+    width: 100%;
+    min-height: 73vh;
+    /* background-color: aquamarine; */
+    font-family: "Fira Sans", serif;
+}
+
+
+.hero-bg{
+    background-color: #C6E4D6;
+    width: 85%;
+    height: 450px;
+    margin: 10px auto;
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 52px;
+
+}
+
+.hero-inner-img{
+    /* width: 350px; */
+    height: 350px;
+}
+
+.hero-title{
+    color: #0E0E0E;
+    opacity: 50%;
+    font-size: 21px;
+}
+
+.hero-subtitle{
+    font-size: 48px;
+
+}
+
+.hero-btn button{
+    padding: 14px 22px;
+    border: 1.3px solid #006A50;
+    border-radius: 6px;
+    color: white;
+    background-color: #006A50;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all ease 0.2s;
+}
+
+.hero-btn button:hover{
+    background-color: transparent;
+    color: #006A50;
+}
+
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Working on page - 2 */
+
+
+#page-2{
+    width: 100%;
+    min-height: 50vh;
+    /* background-color: aquamarine; */
+    font-family: "Fira Sans", serif;
+}
+
+.pillars{
+padding: 50px 95px;
+}
+
+.pillar-cards{
+    display: flex;
+    margin-top: 30px;
+    gap: 18px;
+}
+
+.pillar-card img{
+    width: 54px;
+}
+
+.pillars-title{
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.pillar-card{
+    background-color: white;
+    width: 30%;
+    padding: 13px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 14px;
+    border: 1px solid #0e0e0e35;
+
+}
+
+.pillar-title{
+    font-size: 19px;
+}
+
+.pillar-description{
+    font-size: 13px;
+    color: #0e0e0eba;
+}
+
+/* Working on page - 3 */
+
+#page-3{
+    width: 100%;
+    min-height: 70vh;
+    /* background-color: aquamarine; */
+    font-family: "Fira Sans", serif;
+}
+
+
+.visions{
+    padding: 10px 95px 50px 95px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.vision-card img{
+    width: 54px;
+}
+
+.visions-cards{
+display: flex;
+margin-top: 20px;
+gap: 20px;
+justify-content: space-between;
+}
+
+.vision-card{
+    width: 32%;
+    padding: 25px 21px 55px 21px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.visions-title{
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.vision-title{
+    font-size: 19px;
+}
+
+.vision-description{
+    font-size: 14px;
+    color: #0e0e0eba;
+}
+.visions-description{
+    font-size: 14px;
+    color: #0e0e0eba;
+}
+
+.vision-btn button{
+    padding: 10px 12px;
+    border: none;
+    color: white;
+    font-weight: 600;
+position: absolute;
+bottom: 21px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+
+.vision-card:nth-child(1) button{
+    background-color: #5490F5;
+    border: 1px solid #5490F5;
+}
+.vision-card:nth-child(1) button:hover{
+    background-color: transparent;
+    color: #5490F5;
+}
+.vision-card:nth-child(2) button{
+    background-color: #09A15C;
+    border: 1px solid #09A15C;
+}
+.vision-card:nth-child(2) button:hover{
+    background-color: transparent;
+    color: #09A15C;
+}
+.vision-card:nth-child(3) button{
+    background-color: #FFC239;
+    border: 1px solid #FFC239;
+}
+.vision-card:nth-child(3) button:hover{
+    background-color: transparent;
+    color: #FFC239;
+}
+
+
+.vision-card:nth-child(1){
+    background-color: #548ff561;
+}
+.vision-card:nth-child(2){
+    background-color: #C6E4D6;
+}
+.vision-card:nth-child(3){
+    background-color: #F7EBCF;
+}
