@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #F5F5F5;
+}
+
 /* font-family: "Fira Sans", serif; */
 
 /* Working on Nav */
@@ -319,7 +323,7 @@ bottom: 21px;
     width: 100%;
     padding: 25px 25px;
     border-radius: 15px;
-    background-color: rgb(216, 216, 216);
+    background-color: white;
     margin-top: 20px;
 }
 
@@ -415,7 +419,7 @@ transition: all ease 0.4s;
 }
 
 .recent-card{
-    background-color: rgb(111, 111, 111);
+    background-color: white;
     width: 100%;
     border-radius: 18px;
 }
@@ -606,7 +610,103 @@ transition: all ease 0.4s;
 
 #page-8{
     width: 100%;
-    min-height: 70vh;
-    background-color: #F7EBCF;
+    min-height: 60vh;
+    /* background-color: #F7EBCF; */
     font-family: "Fira Sans", serif;
+}
+
+.subscribe{
+    background-color: #C6E4D6;
+    width: 85%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 65px 0;
+    border-radius: 15px;
+}
+
+.subscribe-title{
+    text-align: center;
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.subscribe-description{
+    text-align: center;
+    font-size: 14px;
+    color: #0e0e0eba;
+}
+
+.subscribe-subtitle{
+    text-align: center;
+    font-size: 14px;
+    color: #0e0e0eba;
+}
+
+.subscribe-search-box{
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-search-box input{
+    width: 50%;
+    padding: 15px 29px;
+    border: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.subscribe-search-box input::placeholder{
+    opacity: 50%;
+}
+
+.subscribe-search-box button{
+    padding: 15px 29px;
+    border: none;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: 1px solid #006A50;
+    color: white;
+    background-color: #006A50;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+
+.subscribe-search-box button:hover{
+    background-color: #078767;
+}
+
+/* Working on footer */
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    font-family: "Fira Sans", serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    align-items: center;
+    padding: 60px 10px;
+}
+
+.social{
+    display: flex;
+    gap: 15px;
+}
+
+.social img{
+    width: 23px;
+}
+
+.footer-title{
+    font-size: 28px;
+    font-weight: 600;
+    border-bottom: 1.5px solid #ababab35;
+    width: 70%;
+    padding-bottom: 25px;
 }
