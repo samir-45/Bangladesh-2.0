@@ -296,3 +296,108 @@ bottom: 21px;
     font-size: 15px;
     color: #0e0e0eba;
 }
+
+
+/* Working on page - 5 */
+
+#page-5{
+    width: 100%;
+    min-height: 65vh;
+    padding: 0 95px;
+    font-family: "Fira Sans", serif;
+}
+
+.opinion-title{
+
+    margin-top: 50px;
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.opinion-box{
+    /* background-color: rgb(232, 15, 15); */
+    width: 100%;
+    padding: 25px 25px;
+    border-radius: 15px;
+    background-color: rgb(216, 216, 216);
+    margin-top: 20px;
+}
+
+.opinion-table td{
+    border: 1px solid #0e0e0e35;
+
+}
+
+.opinion-table table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.opinion-table tr:first-child td div{
+    justify-content: space-between;
+    /* width: 100%; */
+    display: flex;
+
+    
+}
+.opinion-table tr:first-child td div h2{
+    font-size: 17px;
+
+    
+}
+.opinion-table tr:first-child{
+background-color: #C6E4D6;
+
+    
+}
+
+.opinion-table tr:nth-child(1) td:first-child{
+    font-size: 15px;
+    font-weight: 500;
+        padding: 25px;
+    }
+
+.opinion-table tr:nth-child(2) td:first-child{
+font-size: 15px;
+font-weight: 500;
+    padding: 25px;
+}
+.opinion-table tr:nth-child(3) td:first-child{
+font-size: 15px;
+font-weight: 500;
+    padding: 25px;
+}
+.opinion-table tr:nth-child(4) td:first-child{
+font-size: 15px;
+font-weight: 500;
+    padding: 25px;
+}
+
+.opinion-table tr button{
+    padding: 11px 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: #C6E4D6;
+    font-weight: 600;
+    font-size: 12px;
+    display: flex;
+    gap: 7px;
+    border: 1px solid #006A50;
+margin: 0 10px;
+transition: all ease 0.4s;
+}
+
+
+.opinion-table tr button:hover{
+    background-color: transparent;
+    color: #006A50;
+}
+.opinion-table tr button:hover .fa-solid{
+    color: #006A50;
+}
+
+.td-btn{
+    display: flex;
+    justify-content: center;
+}
+
