@@ -488,3 +488,125 @@ transition: all ease 0.4s;
     font-size: 14px;
     color: #0e0e0eba;
 }
+
+
+/* working on page - 7 */
+
+#page-7{
+    width: 100%;
+    min-height: 80vh;
+    padding: 0 95px;
+    font-family: "Fira Sans", serif;
+
+}
+
+
+.donate{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    
+}
+
+.donate-title{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.donate-description{
+    text-align: center;
+    font-size: 14px;
+    color: #0e0e0eba;
+}
+
+.donate-cards{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 0 90px;
+}
+
+.donate-cards .donate-card:nth-child(2){
+    background-color: #C6E4D6;
+}
+.donate-cards .donate-card:nth-child(1):hover{
+    background-color: #C6E4D6;
+}
+
+.donate-cards .donate-card:nth-child(3):hover{
+    background-color: #C6E4D6;
+}
+.donate-cards .donate-card:nth-child(4):hover{
+    background-color: #C6E4D6;
+}
+
+.donate-card{
+    background-color: white;
+    /* width: 24%; */
+    font-size: 22px;
+    font-weight: 600;
+    color: #0e0e0eca;
+    padding: 30px 30px;
+    border: 1px solid #0e0e0e35;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+
+.donate-box textarea{
+    width: 81%;
+    height: 55px;
+    border: none;
+    border-bottom: 1px solid #0e0e0e35;
+    padding-top: 16px;
+    background-color: white;
+
+}
+.donate-box textarea::placeholder{
+    font-size: 18px;
+    color: #0e0e0eba;
+    opacity: 50%;
+    text-align: center;
+
+
+}
+
+.donate-box{
+    display: flex;
+    justify-content: center;
+}
+
+.donate-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.donate-btn button{
+    padding: 14px 24px;
+    border: 1px solid #006A50;
+    color: white;
+    background-color: #006A50;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all ease 0.4s;
+    font-size: 15px;
+}
+
+
+.donate-btn button:hover{
+    background-color: transparent;
+    color: #006A50;
+}
+
+/* Working on page - 8 */
+
+#page-8{
+    width: 100%;
+    min-height: 70vh;
+    background-color: #F7EBCF;
+    font-family: "Fira Sans", serif;
+}
